@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Counter</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+</head>
+<body>
+
+    <main>
+        <div class="container">
+            <h1>Character Counter</h1>
+
+            <form>
+                <label for="input-text">Enter text:</label>
+                <textarea type="text" id="input-text" autofocus></textarea>
+            </form>
+
+            <div id="result">There are 0 characters in the provided text.</div>
+            
+            <h2>Letter density:</h2>
+
+            <ol id="letter-list"></ol>
+        </div>
+    </main>
+
+    <script src="./index.js"></script>
+
+    <script>
+        window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
+</body>
+</html>
